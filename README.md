@@ -93,3 +93,7 @@ The solution operates through a series of interconnected Power Automate flows:
 *   **Multilingual Documentation:** Explore options to generate documentation in multiple languages using AI translation services to support global Power Platform teams.
 
 
+## Credits
+
+*   Ajigbayi Oluwafemi Tosin - Lead
+
