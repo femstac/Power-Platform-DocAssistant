@@ -52,8 +52,9 @@ The solution operates through a series of interconnected Power Automate flows:
 
 ## How to Use
 
-1.  **Configure SharePoint Folders:**  Define the SharePoint Site URL, Document Library, Solution Upload Folder, and Destination Documentation Folder within the `AutomateSolutionDocGenerationonFileUpload` flow parameters, aligning with your Power Platform environment.
-2.  **Upload Solution ZIP:** Upload your Power Automate Desktop solution ZIP file to the designated SharePoint Solution Upload Folder.  *(Future versions will support broader Power Platform solution types.)*
+
+1.  **Upload Solution ZIP:** Upload your solution ZIP file, containing Power Automate Desktop flow, to the designated SharePoint Solution Upload Folder.  *(Future versions will support broader Power Platform solution types.)*
+2.  **Configure SharePoint Folders:**  Define the SharePoint Site URL, Document Library, Solution Upload Folder, and Destination Documentation Folder within the Enviroment variables parameters, aligning with your SharePoint Site.
 3.  **Automatic Documentation Generation:** The workflow will automatically trigger upon file creation, process the solution, and generate the DOCX documentation and SVG flowcharts in the Destination Documentation Folder.
 4.  **Access Documentation:** Open the generated DOCX file from the Destination Documentation Folder in SharePoint to review the technical documentation for your Power Platform solution.
 
