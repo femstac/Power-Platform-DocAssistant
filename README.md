@@ -52,11 +52,10 @@ The solution operates through a series of interconnected Power Automate flows:
 
 ## How to Use
 
-1.  **Setup Connectors:** Ensure you have configured the custom connectors (`fa_tdd-20document-20generator`, `fa_5Fzip-20folder-20operations`) and have valid API keys configured for the AI Model API (Gemini) in the `GenerateContentwithAIModel` child flow. Also ensure SharePoint connections are correctly setup.
-2.  **Configure SharePoint Folders:**  Define the SharePoint Site URL, Document Library, Solution Upload Folder, and Destination Documentation Folder within the `AutomateSolutionDocGenerationonFileUpload` flow parameters, aligning with your Power Platform environment.
-3.  **Upload Solution ZIP:** Upload your Power Automate Desktop solution ZIP file to the designated SharePoint Solution Upload Folder.  *(Future versions will support broader Power Platform solution types.)*
-4.  **Automatic Documentation Generation:** The workflow will automatically trigger upon file creation, process the solution, and generate the DOCX documentation and SVG flowcharts in the Destination Documentation Folder.
-5.  **Access Documentation:** Open the generated DOCX file from the Destination Documentation Folder in SharePoint to review the technical documentation for your Power Platform solution.
+1.  **Configure SharePoint Folders:**  Define the SharePoint Site URL, Document Library, Solution Upload Folder, and Destination Documentation Folder within the `AutomateSolutionDocGenerationonFileUpload` flow parameters, aligning with your Power Platform environment.
+2.  **Upload Solution ZIP:** Upload your Power Automate Desktop solution ZIP file to the designated SharePoint Solution Upload Folder.  *(Future versions will support broader Power Platform solution types.)*
+3.  **Automatic Documentation Generation:** The workflow will automatically trigger upon file creation, process the solution, and generate the DOCX documentation and SVG flowcharts in the Destination Documentation Folder.
+4.  **Access Documentation:** Open the generated DOCX file from the Destination Documentation Folder in SharePoint to review the technical documentation for your Power Platform solution.
 
 ## Scaling
 
