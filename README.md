@@ -30,6 +30,8 @@ The solution operates through a series of interconnected Power Automate flows:
         *   Input/Output Variable Analysis
         *   Dependency Analysis
         *   Error Handling Summary
+        *   List of declared business and system Exceptions
+        *   List of connections references and desktop flows used in each flow
         *   Improvement Recommendations
     *   **Flowchart DOT Code Generation (AI-Powered):** Generates Graphviz DOT code from the flow definition using AI, enabling visual flowchart creation.
     *   **Flowchart SVG Generation:** Uses a Graphviz API (Quickchart.io) to convert the DOT code into an SVG flowchart image, stored in SharePoint.
