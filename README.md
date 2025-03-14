@@ -99,3 +99,4 @@ The solution operates through a series of interconnected Power Automate flows:
 
 *   Ajigbayi Oluwafemi Tosin - Lead
 
+*Disclaimer: This is not an official Microsoft tool. Power Apps is a trademark of Microsoft Corporation.*
