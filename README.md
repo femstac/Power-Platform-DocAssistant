@@ -1,5 +1,5 @@
 
-**Power Platform DocAssistant: AI-Powered Technical Documentation for the Power Platform (Currently Supporting Power Automate Desktop)**
+**Power Platform DocAssistant: AI-Powered Technical Documentation for the Power Platform (Currently Supporting Power Automate Desktop and Power Automate Cloud flows)**
 
 ## Project Overview
 
@@ -45,7 +45,6 @@ The solution operates through a series of interconnected Power Automate flows:
 *   **Power Automate (Microsoft Power Platform):** Orchestration of the entire documentation generation process for Power Platform solutions.
 *   **SharePoint Online (Microsoft 365):** Solution file storage, documentation output location, and workflow trigger, serving as a central hub for Power Platform documentation.
 *   **Custom Connectors:**
-    *   **tdd-document-generator:** For dynamically creating DOCX documents tailored for Power Platform components.
     *   **zip-folder-operations:** For ZIP file manipulation and text utilities essential for Power Platform solution package processing.
 *   **AI Model (Gemini via Google Generative AI API):** For natural language generation (flow overviews, recommendations, DOT code generation), providing intelligent documentation assistance across the Power Platform.
 *   **Graphviz API (Quickchart.io):** For converting DOT code to SVG flowcharts, visually representing Power Platform flow logic.
@@ -84,14 +83,24 @@ The solution operates through a series of interconnected Power Automate flows:
 *   **Reduced Documentation Burden:** AI drastically reduces the time and effort required for creating high-quality technical documentation, freeing up developer time and improving overall Power Platform project efficiency.
 *   **Continuous Improvement Potential:** The AI prompts and models can be further refined and improved over time to enhance the quality and accuracy of the generated documentation for the entire Power Platform. Fine-tuning the prompts based on feedback and specific documentation requirements will be an ongoing process.
 
+
+## Updates in v1.0.0.5
+*   **Document for cloud flows**
+*   **Retry mechanisms in place for unit flows**
+*   **Uses Word Online action to create document from template**
+*   Other quality of life updates and bug fixes
+
+
+
+
+
+
 ## Future Improvements
 
 *   **Enhanced DOCX Template Customization:** Allow users to customize the DOCX template further, including branding, section ordering, and styling for Power Platform-wide documentation.
 *   **More Granular AI Prompt Engineering:** Refine AI prompts for even more detailed and context-aware documentation output tailored to different Power Platform components.
-*   **Azure Key Vault Integration:** Implement secure storage of API keys using Azure Key Vault for enhanced security in Power Platform deployments.
 *   **Version Control Integration:**  Integrate with version control systems (like Git) to track documentation changes alongside code changes for Power Platform projects.
-*   **Support for Broader Power Platform Offerings:** Expand support to document other types of Power Platform solutions including Power Apps, Power Pages, and Power Virtual Agents.
-*   **User Notifications:** Implement email or Teams notifications to inform usersand provide detailed reports when documentation generation is complete for their Power Platform solutions.
+*   **Support for Broader Power Platform Offerings:** Expand support to document other types of Power Platform solutions including Power Apps, Power Pages, and Power Virtual Agents. 
 *   **Multilingual Documentation:** Explore options to generate documentation in multiple languages using AI translation services to support global Power Platform teams.
 
 
